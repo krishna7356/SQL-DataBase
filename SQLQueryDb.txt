@@ -1,0 +1,13 @@
+
+--The SQL CREATE DATABASE Statement
+CREATE DATABASE tstDb;
+CREATE DATABASE todrop;
+
+--SQL DROP DATABASE Statement
+DROP DATABASE todrop;
+
+--The SQL BACKUP DATABASE Statement
+BACKUP DATABASE tstDb
+TO DISK = 'D:\backups\testDB.bak'
+WITH DIFFERENTIAL; --A differential back up reduces the back up time (since only the changes are backed up).
+
